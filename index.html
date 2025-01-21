@@ -32,12 +32,12 @@
 
       // Create KmlLayer objects for each KML file
       layer1 = new google.maps.KmlLayer({
-        url: "https://btaylor00.github.io/MapsTest/MapOverlays.kml",
+        url: "https://btaylor00.github.io/MapsTest/KML/1933.kml",
         map: map,              // Start visible (attach to map)
         preserveViewport: true // So map won't auto-center on KML
       });
       layer2 = new google.maps.KmlLayer({
-        url: "https://<yourusername>.github.io/<yourrepo>/kml/layer2.kml",
+        url: "https://<yourusername>.github.io/<yourrepo>/kml/1933.kmz",
         map: null,             // Start hidden (no map)
         preserveViewport: true
       });
@@ -45,7 +45,7 @@
 
     // Toggle function called by the checkboxes
     function toggleLayer(layerName, checkbox) {
-      if (layerName === "layer1") {
+      if (layerName === "1933") {
         layer1.setMap(checkbox.checked ? map : null);
       } else if (layerName === "layer2") {
         layer2.setMap(checkbox.checked ? map : null);
@@ -64,9 +64,9 @@
       <input
         type="checkbox"
         checked
-        onclick="toggleLayer('layer1', this)"
+        onclick="toggleLayer('1933', this)"
       />
-      Layer 1
+      1933 Overlay
     </label>
     <label style="margin-left: 15px;">
       <input
