@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>1933</name>
+	<visibility>0</visibility>
+	<GroundOverlay>
+		<name>1933 N</name>
+		<visibility>0</visibility>
+		<Icon>
+			<href>G:/My Drive/Lighthouse love/Pictures/Overlay/Old to new/v2/1933/Cropped/113-Brigantine.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+		<LatLonBox>
+			<north>39.42567495720728</north>
+			<south>39.40468636736312</south>
+			<east>-74.35772970458191</east>
+			<west>-74.37974440242512</west>
+			<rotation>49.70232391357422</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>1933 NM</name>
+		<visibility>0</visibility>
+		<Icon>
+			<href>G:/My Drive/Lighthouse love/Pictures/Overlay/Old to new/v2/1933/Cropped/114-Brigantine.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+		<LatLonBox>
+			<north>39.4090785728475</north>
+			<south>39.40136344976664</south>
+			<east>-74.36701879477384</east>
+			<west>-74.37179072286585</west>
+			<rotation>50.08874893188477</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>1933 M1</name>
+		<visibility>0</visibility>
+		<Icon>
+			<href>G:/My Drive/Lighthouse love/Pictures/Overlay/Old to new/v2/1933/Cropped/118-Brigantine.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+		<LatLonBox>
+			<north>39.4010055934709</north>
+			<south>39.37880159009836</south>
+			<east>-74.38346114540063</east>
+			<west>-74.40152961128801</west>
+			<rotation>54.63543319702148</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>1933 s</name>
+		<visibility>0</visibility>
+		<Icon>
+			<href>G:/My Drive/Lighthouse love/Pictures/Overlay/Old to new/v2/1933/Cropped/121-AbseconChannel.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+		<LatLonBox>
+			<north>39.39026244224669</north>
+			<south>39.36833853318173</south>
+			<east>-74.39461511831122</east>
+			<west>-74.41649450955522</west>
+			<rotation>45.47859954833984</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>1933 M</name>
+		<visibility>0</visibility>
+		<Icon>
+			<href>G:/My Drive/Lighthouse love/Pictures/Overlay/Old to new/v2/1933/Cropped/116-Brigantine.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>39.41219631588426</north>
+			<south>39.38908973401729</south>
+			<east>-74.37003853452556</east>
+			<west>-74.39251710026745</west>
+			<rotation>53.49524307250977</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>1933 SM</name>
+		<visibility>0</visibility>
+		<Icon>
+			<href>G:/My Drive/Lighthouse love/Pictures/Overlay/Old to new/v2/1933/Cropped/120-Brigantine.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>39.39563496268884</north>
+			<south>39.37336143429685</south>
+			<east>-74.39347880708547</east>
+			<west>-74.40350905946259</west>
+			<rotation>47.81918334960938</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>1933 N2</name>
+		<visibility>0</visibility>
+		<Icon>
+			<href>https://i.imgur.com/gkPXI5n.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>39.42669172253161</north>
+			<south>39.41749063322342</south>
+			<east>-74.34324390560536</east>
+			<west>-74.36007180639238</west>
+			<rotation>53.65421295166016</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>1933 N3</name>
+		<visibility>0</visibility>
+		<Icon>
+			<href>https://i.imgur.com/dCBG0Uz.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>39.43659372937178</north>
+			<south>39.42330466326543</south>
+			<east>-74.34179270592551</east>
+			<west>-74.35191524230397</west>
+			<rotation>54.09543991088867</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>1933 N4</name>
+		<visibility>0</visibility>
+		<Icon>
+			<href>https://i.imgur.com/cI1eflf.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>39.44386785862557</north>
+			<south>39.43143351560168</south>
+			<east>-74.33243088652942</east>
+			<west>-74.34835587756382</west>
+			<rotation>55.60376358032227</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+</Folder>
+</kml>
