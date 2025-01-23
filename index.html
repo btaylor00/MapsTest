@@ -1,83 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <title>My Custom Google Earth Site</title>
+  <title>Brigantine, NJ in Google Earth</title>
   <style>
-    /* Basic page styles */
-    #map {
-      width: 100%;
-      height: 600px;
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
     }
-    body {
-      font-family: Arial, sans-serif;
+    #map3d {
+      height: 100%;
     }
   </style>
-
-  <!-- Load the Google Maps JavaScript API -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAtgP3Q-kJ3sw4z1oJ0_-660oaF0zuhMg"></script>
-
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAtgP3Q-kJ3sw4z1oJ0_-660oaF0zuhMg&libraries=earth"> </script>
   <script>
-    let map;
-    let layer1, layer2; // references to our KML layers
-
-    function initMap() {
-      // Create a map centered at some default location
-      map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: 0, lng: 0 },  // world view
-        zoom: 2,
-        // You can try 'satellite', 'hybrid', 'terrain', or 'roadmap' here
-        mapTypeId: 'hybrid'
+    function init() {
+      const earth = new google.maps.earth.Earth(document.getElementById('map3d'), {
+        location: { lat: 39.4089, lng: -74.3639 },
+        altitude: 10000, // Distance in meters
+        tilt: 45,
       });
 
-      // Create KmlLayer objects for each KML file
-      layer1 = new google.maps.KmlLayer({
-        url: "https://btaylor00.github.io/MapsTest/KML/1933.kml",
-        map: map,              // Start visible (attach to map)
-        preserveViewport: true // So map won't auto-center on KML
+      // Add a placemark.
+      const placemark = new google.maps.earth.Placemark(earth);
+      placemark.setName("Brigantine, NJ");
+      placemark.setGeometry({
+        location: { lat: 39.4089, lng: -74.3639 },
       });
-      layer2 = new google.maps.KmlLayer({
-        url: "https://<yourusername>.github.io/<yourrepo>/kml/1933.kmz",
-        map: null,             // Start hidden (no map)
-        preserveViewport: true
-      });
-    }
-
-    // Toggle function called by the checkboxes
-    function toggleLayer(layerName, checkbox) {
-      if (layerName === "1933") {
-        layer1.setMap(checkbox.checked ? map : null);
-      } else if (layerName === "layer2") {
-        layer2.setMap(checkbox.checked ? map : null);
-      }
+      earth.getFeatures().appendChild(placemark);
     }
   </script>
 </head>
-
-<body onload="initMap()">
-  <h1>My Custom Google Earth Site</h1>
-  <p>Check/uncheck the boxes to show/hide each layer:</p>
-
-  <!-- Checkbox controls -->
-  <div>
-    <label>
-      <input
-        type="checkbox"
-        checked
-        onclick="toggleLayer('1933', this)"
-      />
-      1933 Overlay
-    </label>
-    <label style="margin-left: 15px;">
-      <input
-        type="checkbox"
-        onclick="toggleLayer('layer2', this)"
-      />
-      Layer 2
-    </label>
-  </div>
-
-  <!-- The map container -->
-  <div id="map"></div>
+<body onload="init()">
+  <div id="map3d"></div>
 </body>
 </html>
